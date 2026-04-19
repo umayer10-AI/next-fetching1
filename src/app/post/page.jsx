@@ -17,7 +17,7 @@ const getPost = async () => {
 const page = async () => {
 
     const data = await getPost()
-    console.log(data)
+    // console.log(data)
 
     return (
         <div>

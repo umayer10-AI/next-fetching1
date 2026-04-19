@@ -1,0 +1,106 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Good Umayer",
+      "price": 16.99,
+      "category": "Electronics",
+      "stock": 25,
+      "brand": "Logitech",
+      "rating": 4.5,
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3"
+    },
+    {
+      "id": 2,
+      "name": "Device Keyboard",
+      "price": 46.50,
+      "category": "Electronics",
+      "stock": 15,
+      "brand": "Redragon",
+      "rating": 4.7,
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "price": 60.00,
+      "category": "Fashion",
+      "stock": 30,
+      "brand": "Nike",
+      "rating": 4.6,
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff"
+    },
+    {
+      "id": 4,
+      "name": "Umayer Watch",
+      "price": 120.99,
+      "category": "Electronics",
+      "stock": 10,
+      "brand": "Samsung",
+      "rating": 4.4,
+      "image": "https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b"
+    },
+    {
+      "id": 5,
+      "name": "Backpack",
+      "price": 25.75,
+      "category": "Accessories",
+      "stock": 20,
+      "brand": "Skybags",
+      "rating": 4.8,
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Umayer Habits",
+      "author": "James Clear",
+      "price": 12.99,
+      "category": "Self Development",
+      "rating": 4.8,
+      "stock": 20,
+      "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=500&auto=format"
+    },
+    {
+      "id": 2,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "price": 10.50,
+      "category": "Fiction",
+      "rating": 4.7,
+      "stock": 15,
+      "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?w=500&auto=format"
+    },
+    {
+      "id": 3,
+      "title": "Clean Code",
+      "author": "Robert C. Martin",
+      "price": 30.00,
+      "category": "Programming",
+      "rating": 4.9,
+      "stock": 10,
+      "image": "https://images.unsplash.com/photo-1517430816045-df4b7de11d1d?w=500&auto=format"
+    },
+    {
+      "id": 4,
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "price": 14.25,
+      "category": "Finance",
+      "rating": 4.6,
+      "stock": 18,
+      "image": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=500&auto=format"
+    },
+    {
+      "id": 5,
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "price": 16.75,
+      "category": "Productivity",
+      "rating": 4.7,
+      "stock": 12,
+      "image": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=500&auto=format"
+    }
+  ]
+}
