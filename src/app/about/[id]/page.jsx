@@ -4,7 +4,7 @@ export const generateStaticParams = async () => {
     const res = await fetch(`http://localhost:4000/books`)
     const data = await res.json()
 
-    return data.map(v => ({id : v.id}))
+    return data.slice(0,3).map(v => ({id : v.id}))
 }
 
 const page = async ({params}) => {
