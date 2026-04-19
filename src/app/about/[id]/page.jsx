@@ -1,5 +1,12 @@
 import React from 'react';
 
+export const generateStaticParams = async () => {
+    const res = await fetch(`http://localhost:4000/books`)
+    const data = await res.json()
+
+    return data.map(v => ({id : v.id}))
+}
+
 const page = async ({params}) => {
 
     const {id} = await params
