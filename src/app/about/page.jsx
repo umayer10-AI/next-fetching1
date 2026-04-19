@@ -2,9 +2,13 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
+export const dynamic = "force-dynamic"
+
 const getPost = async () => {
     try{
-        const res = await fetch("http://localhost:4000/books")
+        // const res = await fetch("http://localhost:4000/books",{cache: "no-store"})
+        // const res = await fetch("http://localhost:4000/books",{cache: "force-cache"})
+        const res = await fetch("http://localhost:4000/books",{next: {revalidate: 10}})
         if(!res.ok){
             throw new Error("Wrong")
         }
